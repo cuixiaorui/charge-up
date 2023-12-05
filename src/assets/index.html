@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <div>
+    <h2>记账</h2>
+    <div class="container">
+      <div>
+        <h4>余额</h4>
+        <h1>$788</h1>
+      </div>
+      <div class="inc-exp-container">
+        <div>
+          <h4>收入</h4>
+          <p class="money plus">+$888</p>
+        </div>
+        <div>
+          <h4>支出</h4>
+          <p class="money minus">+$888</p>
+        </div>
+      </div>
+      <div>
+        <h3>History</h3>
+        <ul class="list">
+          <li class="minus">
+            买饭
+            <span>$-100</span>
+            <button class="delete-btn">x</button>
+          </li>
+          <li class="plus">
+            授课
+            <span>$800</span>
+            <button class="delete-btn">x</button>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>添加记录</h3>
+        <div class="form-control">
+          <label for="text">Text</label>
+          <input type="text" placeholder="enter text..." />
+        </div>
+        <div class="form-control">
+          <label for="amount">Amount<br />
+            (negative - expense, positive - income)</label>
+          <input type="text" placeholder="enter amount..." />
+        </div>
+        <button class="btn">添加记录</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
